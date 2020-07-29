@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Run') {
             steps {
-                sh 'java -jar target/artifactId-1.0.jar'
+                bat 'java -jar target/artifactId-1.0.jar'
             }
         }
     }
